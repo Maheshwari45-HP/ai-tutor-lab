@@ -8,7 +8,7 @@ API_BASE = os.getenv('API_BASE', 'http://localhost:8000')
 
 st.set_page_config(page_title='AI Tutor (Local)', layout='centered')
 
-st.title('AI Tutor — Local Orchestrator Demo')
+st.title('AI Tutor lab')
 
 
 prompt = st.text_area('Enter a prompt for the AI Tutor', height=200)
