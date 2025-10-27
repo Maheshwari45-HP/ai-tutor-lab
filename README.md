@@ -9,16 +9,16 @@ Empowers students and educational platforms with **autonomous multi-tool AI orch
 ## 📂 Project Structure
 ai-tutor-lab/
 ├── backend/
-│   ├── app/                 # FastAPI app modules
-│   ├── .env                 # Environment variables
-│   ├── requirements.txt     # Backend dependencies
-│   └── run_backend.bat      # Run backend + MCP mock
+│ ├── app/ # FastAPI app modules
+│ ├── .env # Environment variables
+│ ├── requirements.txt # Backend dependencies
+│ └── run_backend.bat # Run backend + MCP mock
 ├── frontend/
-│   ├── streamlit_app.py     # Streamlit UI
-│   ├── .env                 # Environment variables
-│   └── requirements.txt     # Frontend dependencies
-├── run_local.bat            # Start backend + frontend
-└── LICENSE.txt              # Custom license (All Rights Reserved)
+│ ├── streamlit_app.py # Streamlit UI
+│ ├── .env # Environment variables
+│ └── requirements.txt # Frontend dependencies
+├── run_local.bat # Start backend + frontend
+└── LICENSE.txt # Custom license (All Rights Reserved)
 
 ## ⚡ Quick Start (Windows)
 
