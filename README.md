@@ -7,7 +7,6 @@ Empowers students and educational platforms with **autonomous multi-tool AI orch
 ---
 
 ## 📂 Project Structure
-
 ai-tutor-lab/
 ├── backend/
 │   ├── app/                 # FastAPI app modules
