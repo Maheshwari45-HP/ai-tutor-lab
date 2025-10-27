@@ -7,6 +7,8 @@ Empowers students and educational platforms with **autonomous multi-tool AI orch
 ---
 
 ## 📂 Project Structure
+------
+
 ai-tutor-lab/
 ├── backend/
 │ ├── app/ # FastAPI app modules
@@ -19,6 +21,9 @@ ai-tutor-lab/
 │ └── requirements.txt # Frontend dependencies
 ├── run_local.bat # Start backend + frontend
 └── LICENSE.txt # Custom license (All Rights Reserved)
+
+
+---
 
 ## ⚡ Quick Start (Windows)
 
