@@ -21,7 +21,6 @@ ai-tutor-lab/
 ├── run_local.bat            # Start backend + frontend
 └── LICENSE.txt              # Custom license (All Rights Reserved)
 
-
 ## ⚡ Quick Start (Windows)
 
 ### 1️⃣ Setup Virtual Environments (Recommended)
