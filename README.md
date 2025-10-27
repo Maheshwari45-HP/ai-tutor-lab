@@ -1,4 +1,4 @@
-# 🧠 AI Tutor Orchestrator — MVP
+# 🧠 AI Tutor Lab — MVP
 
 A **minimal local implementation** of the **Autonomous AI Tutor Orchestrator** — combining a **FastAPI backend**, **Streamlit frontend**, and a **mock MCP server** for rapid prototyping and hackathon demos.
 
@@ -8,20 +8,18 @@ Empowers students and educational platforms with **autonomous multi-tool AI orch
 
 ## 📂 Project Structure
 
-```
-ai-tutor-orchestrator/
+ai-tutor-lab/
 ├── backend/
-│   ├── app/                 # FastAPI application modules
-│   ├── .env                 # Environment variables (API keys, configs)
-│   ├── requirements.txt     # Python dependencies
-│   └── run_backend.bat      # Start backend + MCP mock server
-├── frontend/
-│   ├── streamlit_app.py     # Streamlit frontend UI
+│   ├── app/                 # FastAPI app modules
 │   ├── .env                 # Environment variables
-│   └── requirements.txt     # Python dependencies
-├── run_local.bat            # Run both backend and frontend together
-└── ai_tutor_local.zip       # ZIP archive for local deployment
-```
+│   ├── requirements.txt     # Backend dependencies
+│   └── run_backend.bat      # Run backend + MCP mock
+├── frontend/
+│   ├── streamlit_app.py     # Streamlit UI
+│   ├── .env                 # Environment variables
+│   └── requirements.txt     # Frontend dependencies
+├── run_local.bat            # Start backend + frontend
+└── LICENSE.txt              # Custom license (All Rights Reserved)
 
 ---
 
@@ -92,7 +90,7 @@ Open your browser at:
 
 ---
 
-## 🛠️ Key Files to Inspect / Extend
+## 🛠️ Key Components
 
 | File                               | Purpose                           |
 | ---------------------------------- | --------------------------------- |
@@ -118,21 +116,17 @@ Open your browser at:
 
 ---
 
-## ✅ Notes
-
-* **MVP-ready**: Ideal for hackathon demos and local prototyping.
-* **Extensible**: Easily integrate real AI agents, LangGraph workflows, and multiple educational tools.
-* **Lightweight & Deployable**: Runs on local machines or cloud servers.
-* **Designed for Education**: Personalizes learning by orchestrating multiple AI-powered tools seamlessly.
 
 ---
 
-## 📌 Future Improvements
+## 🧠 Vision
 
-* Real-time LangGraph integration with multiple agent workflows.
-* Advanced personalization based on student mastery and engagement.
-* Support for multiple AI tool APIs beyond the mock setup.
-* Analytics dashboard for performance and usage metrics.
-
+1.Personalized AI tutoring powered by modular AI orchestration
+2.Local-first development for privacy and speed
+3.Expandable to real LangGraph or MCP workflows
 ---
+
+📜 License
+All Rights Reserved © 2025 Maheshwari Khobare
+This repository’s content may not be reproduced or distributed without written permission.
 
