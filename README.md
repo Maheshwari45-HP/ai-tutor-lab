@@ -101,12 +101,6 @@ Open your browser at:
 
 ---
 
-## 🧠 Vision
----- 
-1.Personalized AI tutoring powered by modular AI orchestration
-2.Local-first development for privacy and speed
-3.Expandable to real LangGraph or MCP workflows
----
 
 📜 License
 All Rights Reserved © 2025 Maheshwari Khobare
